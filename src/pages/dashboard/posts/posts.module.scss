@@ -1,0 +1,39 @@
+.contianer {
+  padding: 5%;
+  padding-right: 0;
+}
+.profile-name {
+  color: #ffa900;
+  font-size: large;
+}
+
+.user-title {
+  font-style: italic;
+}
+
+.fields {
+  background: rgba(0, 94, 96, 0);
+  border-radius: 0 10px 10px 0;
+  border-color: rgba(0, 94, 96, 0);
+  border: 0.2px solid rgba(0, 94, 96, 0);
+  color: #828282;
+}
+.fields:focus {
+  outline: none !important;
+}
+
+.loadingbutton {
+  position: relative;
+  align-self: center;
+  left: calc(50% - 108px / 2 + 40.5px);
+  --sk-color: #fff;
+  --sk-size: 23px;
+}
+
+.loadingbuttonColor {
+  position: relative;
+  align-self: center;
+  left: calc(50% - 108px / 2 + 40.5px);
+  --sk-color: #ffa900;
+  --sk-size: 23px;
+}

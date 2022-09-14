@@ -1,0 +1,20 @@
+.width10 {
+  width: 70%;
+}
+
+.width5 {
+  width: 5% !important;
+}
+
+.fields {
+  background: rgba(0, 94, 96, 0);
+  border-radius: 0 10px 10px 0;
+  border-color: rgba(0, 94, 96, 0);
+  border: 0.2px solid rgba(0, 94, 96, 0);
+  width: inherit;
+  color: #828282;
+}
+
+.fields:focus {
+  outline: none !important;
+}

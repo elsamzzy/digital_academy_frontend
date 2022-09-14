@@ -1,0 +1,37 @@
+.card-contianer {
+  position: absolute;
+  width: 98vw;
+  height: 95vh;
+  z-index: 1;
+}
+
+.card-detials {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-box {
+  position: relative;
+  min-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  justify-items: center;
+  align-content: center;
+  justify-self: center;
+  align-items: center;
+  height: 95vh;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.max-width {
+  width: 100%;
+}
+
+.m-t2 {
+  margin-top: 5%;
+}
