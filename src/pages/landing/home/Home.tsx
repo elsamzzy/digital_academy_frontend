@@ -40,11 +40,11 @@ const LandingHome = () => {
   }, []);
   return (
     <>
-      <AppNavbar
+      {/* <AppNavbar
         isLoggedIn={isLoggedIn}
         allUsers={allUsers}
         currentUser={currentUser}
-      />
+      /> */}
       {isLoggedIn ? <CardLoggedIn /> : <HomeCard />}
       <div className="container-video">
         {/* video-height */}
@@ -58,7 +58,7 @@ const LandingHome = () => {
           loop
         >
           <source
-            src={require("../../../assets/video/home4.mp4")}
+            src={require("../../../assets/video/home5.mp4")}
             type="video/ogg"
           />
           Your browser does not support the video tag.

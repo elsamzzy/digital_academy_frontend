@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create();
-API.defaults.baseURL = "http://127.0.0.1:8000/api/";
+API.defaults.baseURL = "/api/";
 const credential = window.localStorage.getItem("currentlyLoggedInUser");
 if (credential) {
   const users = JSON.parse(window.localStorage.getItem("users"));
