@@ -52,6 +52,7 @@ const Register = () => {
   let [correctOTP, setCorrectOTP] = useState("");
   let navigate = useNavigate();
 
+  // Add your firebase config here
   const firebaseConfig = {};
 
   initializeApp(firebaseConfig);

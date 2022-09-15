@@ -15,12 +15,6 @@ const routes = (isLoggedIn = false) => [
     children: [
       { path: "/dashboard", element: <DashboardHome /> },
       { path: "/dashboard/profile", element: <Profile /> },
-      //   { path: "/dashboard/earnings", element: <Earnings /> },
-      //   { path: "/dashboard/user-profile", element: <UserProfile /> },
-      //   { path: "/dashboard/message" },
-      //   { path: "/dashboard/c-support", element: <CSupport /> },
-      // { path: "/dashboard", element: <Navigate to="/dashboard/trips" /> },
-      // { path: "/", element: <Navigate to="/dashboard" /> },
     ],
   },
   {
@@ -45,7 +39,6 @@ const routes = (isLoggedIn = false) => [
           { path: "/auth/register", element: <Register /> },
         ],
       },
-      //   { path: "/", element: <Navigate to="/login" /> },
     ],
   },
 ];
